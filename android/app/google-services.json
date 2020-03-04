@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "335570624225",
+    "firebase_url": "https://attendy-dfc9d.firebaseio.com",
+    "project_id": "attendy-dfc9d",
+    "storage_bucket": "attendy-dfc9d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:335570624225:android:4c9a0a1b4f2f12993921a0",
+        "android_client_info": {
+          "package_name": "com.hvhv60.attendy_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "335570624225-aqoa7go2kles4f6dj5c2uj3cutaqcp6h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDcUhYPG5w2FOhNu7mhd0h2cnpWMFS_kwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "335570624225-aqoa7go2kles4f6dj5c2uj3cutaqcp6h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
