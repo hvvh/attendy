@@ -1,7 +1,6 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/firebase_auth.dart';
-import 'screens/dashboard.dart';
 
 void main() => runApp(MyApp());
 
@@ -58,7 +57,7 @@ class _MyAppState extends State<MyApp> {
                       padding: const EdgeInsets.all(15.0),
                       child: TextFormField(
                         validator: (value) =>
-                            value.isEmpty ? "Email can't be empty !!" : null,
+                        value.isEmpty ? "Email can't be empty !!" : null,
                         onSaved: (value) => _email = value,
                         style: TextStyle(
                           color: Colors.white,
@@ -82,7 +81,7 @@ class _MyAppState extends State<MyApp> {
                       child: TextFormField(
                         obscureText: true,
                         validator: (value) =>
-                            value.isEmpty ? "Password can't be empty !!" : null,
+                        value.isEmpty ? "Password can't be empty !!" : null,
                         onSaved: (value) => _password = value,
                         style: TextStyle(
                           color: Colors.white,
